@@ -42,4 +42,3 @@ def test_text_in_iframe(browser):
     assert text_element.is_displayed(), f"Text '{TARGET_TEXT}' found"
 
     browser.switch_to.default_content()
-te--    c
